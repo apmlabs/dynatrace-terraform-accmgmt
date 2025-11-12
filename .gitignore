@@ -1,0 +1,40 @@
+# Sensitive files
+secrets.yaml
+*.tfvars
+*.tfvars.json
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# AWS credentials
+.aws/
+aws-credentials*
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dynamic status files
+AmazonQ.md
+dynatrace-env-configs-backup/
+dynatrace-terraform-accmgmt/
